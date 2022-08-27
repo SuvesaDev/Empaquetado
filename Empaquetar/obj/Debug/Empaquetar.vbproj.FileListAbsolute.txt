@@ -1,0 +1,68 @@
+C:\Users\JONATHAN\AppData\Local\Temporary Projects\Empaquetar\bin\Debug\Empaquetar.exe.config
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe.config
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.pdb
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.xml
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Frmprincipal.resources
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Resources.resources
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbproj.GenerateResource.Cache
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.exe
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.xml
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.pdb
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmEmpaquetar.resources
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmteclado.resources
+C:\Users\JONATHAN\Desktop\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbprojResolveAssemblyReference.cache
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe.config
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.exe
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.xml
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.pdb
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.pdb
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.xml
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbprojResolveAssemblyReference.cache
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Frmprincipal.resources
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmEmpaquetar.resources
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmteclado.resources
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Resources.resources
+C:\Users\JONATHAN\Desktop\trabajos\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbproj.GenerateResource.Cache
+C:\Users\JONATHAN\Desktop\TRABAJOS\Veterinaria Liberia v03112014\Suvelisa 20052015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.splash.resources
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe.config
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.exe
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.xml
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.pdb
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.pdb
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\bin\Debug\Empaquetar.xml
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbprojResolveAssemblyReference.cache
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Frmprincipal.resources
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmEmpaquetar.resources
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmteclado.resources
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Resources.resources
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.splash.resources
+D:\TRABAJO VETERINARIA LIBERIA\VER 14092015\VER 14092015\Empaquetar\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbproj.GenerateResource.Cache
+D:\TIOBS\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe.config
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.exe
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.xml
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.pdb
+D:\TIOBS\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe
+D:\TIOBS\Empaquetar\Empaquetar\bin\Debug\Empaquetar.pdb
+D:\TIOBS\Empaquetar\Empaquetar\bin\Debug\Empaquetar.xml
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Frmprincipal.resources
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmEmpaquetar.resources
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmteclado.resources
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Resources.resources
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.splash.resources
+D:\TIOBS\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbproj.GenerateResource.Cache
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe.config
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.exe
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.xml
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.pdb
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\bin\Debug\Empaquetar.exe
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\bin\Debug\Empaquetar.pdb
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\bin\Debug\Empaquetar.xml
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Frmprincipal.resources
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmEmpaquetar.resources
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmteclado.resources
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Resources.resources
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.splash.resources
+C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbproj.GenerateResource.Cache

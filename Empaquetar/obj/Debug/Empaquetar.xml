@@ -1,0 +1,148 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Empaquetar
+</name>
+</assembly>
+<members>
+<member name="T:Empaquetar.dtsUsuario.UsuariosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Empaquetar.dtsUsuario.UsuariosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Empaquetar.dtsUsuario.UsuariosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Empaquetar.dtsUsuario">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Empaquetar.dtsUsuarioTableAdapters.UsuariosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Empaquetar.dtsUsuarioTableAdapters.TableAdapterManager.UpdateUpdatedRows(Empaquetar.dtsUsuario,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Empaquetar.dtsUsuarioTableAdapters.TableAdapterManager.UpdateInsertedRows(Empaquetar.dtsUsuario,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Empaquetar.dtsUsuarioTableAdapters.TableAdapterManager.UpdateDeletedRows(Empaquetar.dtsUsuario,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Empaquetar.dtsUsuarioTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Empaquetar.dtsUsuarioTableAdapters.TableAdapterManager.UpdateAll(Empaquetar.dtsUsuario)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Empaquetar.dtsUsuarioTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Empaquetar.dtsUsuarioTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Empaquetar.dtsUsuarioTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Empaquetar.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Empaquetar.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:Empaquetar.My.Resources.Resources.caja">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Empaquetar.My.Resources.Resources.logo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Empaquetar.My.Resources.Resources.no_note">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Empaquetar.My.Resources.Resources.nota">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Empaquetar.My.Resources.Resources.notas1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Empaquetar.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:Empaquetar.seeposDataSet.Ventas_DetalleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Empaquetar.seeposDataSet.Ventas_DetalleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Empaquetar.seeposDataSet.Ventas_DetalleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Empaquetar.seeposDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Empaquetar.seeposDataSetTableAdapters.Ventas_DetalleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Empaquetar.seeposDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Empaquetar.seeposDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Empaquetar.seeposDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Empaquetar.seeposDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Empaquetar.seeposDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Empaquetar.seeposDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Empaquetar.seeposDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Empaquetar.seeposDataSetTableAdapters.TableAdapterManager.UpdateAll(Empaquetar.seeposDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Empaquetar.seeposDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Empaquetar.seeposDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Empaquetar.seeposDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
