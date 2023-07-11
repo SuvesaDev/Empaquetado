@@ -29,19 +29,6 @@ Partial Class Frmprincipal
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frmprincipal))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.dgproductos = New System.Windows.Forms.DataGridView()
-        Me.Codarticulo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Descripcion = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ventasdetalle = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.empaquetado = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Tiempo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.marca = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.id_factura = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Num_factura = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.devoluciones = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.anulado = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Nota = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.Nota_pantalla = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.LblEjecutar = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
@@ -56,6 +43,19 @@ Partial Class Frmprincipal
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lhistorial = New System.Windows.Forms.ListBox()
         Me.DataGridViewImageColumn1 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.Codarticulo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Descripcion = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ventasdetalle = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.empaquetado = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Tiempo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.marca = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.id_factura = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Num_factura = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.devoluciones = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.anulado = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Nota = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.Nota_pantalla = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.dgproductos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.StatusStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -108,136 +108,31 @@ Partial Class Frmprincipal
         Me.dgproductos.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Transparent
         Me.dgproductos.RowTemplate.Height = 40
         Me.dgproductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
-        Me.dgproductos.Size = New System.Drawing.Size(1284, 554)
+        Me.dgproductos.Size = New System.Drawing.Size(1284, 557)
         Me.dgproductos.TabIndex = 0
-        '
-        'Codarticulo
-        '
-        Me.Codarticulo.DataPropertyName = "codarticulo"
-        Me.Codarticulo.HeaderText = "Codigo"
-        Me.Codarticulo.Name = "Codarticulo"
-        Me.Codarticulo.ReadOnly = True
-        Me.Codarticulo.Width = 110
-        '
-        'Descripcion
-        '
-        Me.Descripcion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Descripcion.DataPropertyName = "descripcion"
-        Me.Descripcion.HeaderText = "Descripcion"
-        Me.Descripcion.Name = "Descripcion"
-        Me.Descripcion.ReadOnly = True
-        '
-        'Cantidad
-        '
-        Me.Cantidad.DataPropertyName = "cantidad"
-        Me.Cantidad.HeaderText = "Cantidad"
-        Me.Cantidad.Name = "Cantidad"
-        Me.Cantidad.ReadOnly = True
-        Me.Cantidad.Width = 134
-        '
-        'ventasdetalle
-        '
-        Me.ventasdetalle.DataPropertyName = "id_venta_detalle"
-        Me.ventasdetalle.HeaderText = "ventasdetalle"
-        Me.ventasdetalle.Name = "ventasdetalle"
-        Me.ventasdetalle.ReadOnly = True
-        Me.ventasdetalle.Visible = False
-        Me.ventasdetalle.Width = 185
-        '
-        'empaquetado
-        '
-        Me.empaquetado.DataPropertyName = "empaquetado"
-        Me.empaquetado.HeaderText = "empaquetado"
-        Me.empaquetado.Name = "empaquetado"
-        Me.empaquetado.ReadOnly = True
-        Me.empaquetado.Visible = False
-        Me.empaquetado.Width = 185
-        '
-        'Tiempo
-        '
-        Me.Tiempo.DataPropertyName = "minutos"
-        Me.Tiempo.HeaderText = "Minutos"
-        Me.Tiempo.Name = "Tiempo"
-        Me.Tiempo.ReadOnly = True
-        Me.Tiempo.Visible = False
-        Me.Tiempo.Width = 121
-        '
-        'marca
-        '
-        Me.marca.DataPropertyName = "codmarca"
-        Me.marca.HeaderText = "marca"
-        Me.marca.Name = "marca"
-        Me.marca.Visible = False
-        Me.marca.Width = 105
-        '
-        'id_factura
-        '
-        Me.id_factura.DataPropertyName = "id_factura"
-        Me.id_factura.HeaderText = "id_factura"
-        Me.id_factura.Name = "id_factura"
-        Me.id_factura.Visible = False
-        Me.id_factura.Width = 150
-        '
-        'Num_factura
-        '
-        Me.Num_factura.DataPropertyName = "Num_factura"
-        Me.Num_factura.HeaderText = "Num_factura"
-        Me.Num_factura.Name = "Num_factura"
-        Me.Num_factura.Visible = False
-        Me.Num_factura.Width = 178
-        '
-        'devoluciones
-        '
-        Me.devoluciones.DataPropertyName = "devoluciones"
-        Me.devoluciones.HeaderText = "devoluciones"
-        Me.devoluciones.Name = "devoluciones"
-        Me.devoluciones.Visible = False
-        Me.devoluciones.Width = 177
-        '
-        'anulado
-        '
-        Me.anulado.DataPropertyName = "anulado"
-        Me.anulado.HeaderText = "anulado"
-        Me.anulado.Name = "anulado"
-        Me.anulado.Visible = False
-        Me.anulado.Width = 123
-        '
-        'Nota
-        '
-        Me.Nota.HeaderText = "Nota"
-        Me.Nota.Image = Global.Empaquetar.My.Resources.Resources.no_note
-        Me.Nota.Name = "Nota"
-        Me.Nota.Width = 70
-        '
-        'Nota_pantalla
-        '
-        Me.Nota_pantalla.DataPropertyName = "nota_pantalla"
-        Me.Nota_pantalla.HeaderText = "nota_pantalla"
-        Me.Nota_pantalla.Name = "Nota_pantalla"
-        Me.Nota_pantalla.Visible = False
-        Me.Nota_pantalla.Width = 189
         '
         'StatusStrip1
         '
         Me.StatusStrip1.BackColor = System.Drawing.Color.RoyalBlue
         Me.StatusStrip1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LblEjecutar, Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 723)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 716)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(1284, 26)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1284, 33)
         Me.StatusStrip1.TabIndex = 1
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'LblEjecutar
         '
         Me.LblEjecutar.Name = "LblEjecutar"
-        Me.LblEjecutar.Size = New System.Drawing.Size(19, 21)
+        Me.LblEjecutar.Size = New System.Drawing.Size(23, 28)
         Me.LblEjecutar.Text = "0"
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(101, 21)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(124, 28)
         Me.ToolStripStatusLabel1.Text = "V.19Jun2020"
         Me.ToolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -246,7 +141,7 @@ Partial Class Frmprincipal
         Me.ToolStripStatusLabel2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripStatusLabel2.ForeColor = System.Drawing.Color.Orange
         Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
-        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(75, 21)
+        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(93, 28)
         Me.ToolStripStatusLabel2.Text = "Entregar"
         '
         'ToolStripStatusLabel3
@@ -254,7 +149,7 @@ Partial Class Frmprincipal
         Me.ToolStripStatusLabel3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripStatusLabel3.ForeColor = System.Drawing.Color.Red
         Me.ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
-        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(63, 21)
+        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(78, 28)
         Me.ToolStripStatusLabel3.Text = "Recibir"
         '
         'cbPantallas
@@ -265,7 +160,7 @@ Partial Class Frmprincipal
         Me.cbPantallas.FormattingEnabled = True
         Me.cbPantallas.Location = New System.Drawing.Point(73, 24)
         Me.cbPantallas.Name = "cbPantallas"
-        Me.cbPantallas.Size = New System.Drawing.Size(263, 32)
+        Me.cbPantallas.Size = New System.Drawing.Size(263, 37)
         Me.cbPantallas.TabIndex = 3
         '
         'ImageList1
@@ -342,11 +237,11 @@ Partial Class Frmprincipal
         Me.lhistorial.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lhistorial.ForeColor = System.Drawing.Color.Blue
         Me.lhistorial.FormattingEnabled = True
-        Me.lhistorial.ItemHeight = 22
-        Me.lhistorial.Location = New System.Drawing.Point(0, 631)
+        Me.lhistorial.ItemHeight = 26
+        Me.lhistorial.Location = New System.Drawing.Point(0, 634)
         Me.lhistorial.Name = "lhistorial"
         Me.lhistorial.ScrollAlwaysVisible = True
-        Me.lhistorial.Size = New System.Drawing.Size(1284, 92)
+        Me.lhistorial.Size = New System.Drawing.Size(1284, 82)
         Me.lhistorial.TabIndex = 7
         '
         'DataGridViewImageColumn1
@@ -356,9 +251,114 @@ Partial Class Frmprincipal
         Me.DataGridViewImageColumn1.Name = "DataGridViewImageColumn1"
         Me.DataGridViewImageColumn1.Width = 68
         '
+        'Codarticulo
+        '
+        Me.Codarticulo.DataPropertyName = "codarticulo"
+        Me.Codarticulo.HeaderText = "Codigo"
+        Me.Codarticulo.Name = "Codarticulo"
+        Me.Codarticulo.ReadOnly = True
+        Me.Codarticulo.Width = 137
+        '
+        'Descripcion
+        '
+        Me.Descripcion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Descripcion.DataPropertyName = "descripcion"
+        Me.Descripcion.HeaderText = "Descripcion"
+        Me.Descripcion.Name = "Descripcion"
+        Me.Descripcion.ReadOnly = True
+        '
+        'Cantidad
+        '
+        Me.Cantidad.DataPropertyName = "cantidad"
+        Me.Cantidad.HeaderText = "Cantidad"
+        Me.Cantidad.Name = "Cantidad"
+        Me.Cantidad.ReadOnly = True
+        Me.Cantidad.Width = 167
+        '
+        'ventasdetalle
+        '
+        Me.ventasdetalle.DataPropertyName = "id_venta_detalle"
+        Me.ventasdetalle.HeaderText = "ventasdetalle"
+        Me.ventasdetalle.Name = "ventasdetalle"
+        Me.ventasdetalle.ReadOnly = True
+        Me.ventasdetalle.Visible = False
+        Me.ventasdetalle.Width = 228
+        '
+        'empaquetado
+        '
+        Me.empaquetado.DataPropertyName = "empaquetado"
+        Me.empaquetado.HeaderText = "empaquetado"
+        Me.empaquetado.Name = "empaquetado"
+        Me.empaquetado.ReadOnly = True
+        Me.empaquetado.Visible = False
+        Me.empaquetado.Width = 230
+        '
+        'Tiempo
+        '
+        Me.Tiempo.DataPropertyName = "minutos"
+        Me.Tiempo.HeaderText = "Minutos"
+        Me.Tiempo.Name = "Tiempo"
+        Me.Tiempo.ReadOnly = True
+        Me.Tiempo.Visible = False
+        Me.Tiempo.Width = 148
+        '
+        'marca
+        '
+        Me.marca.DataPropertyName = "codmarca"
+        Me.marca.HeaderText = "marca"
+        Me.marca.Name = "marca"
+        Me.marca.Visible = False
+        Me.marca.Width = 130
+        '
+        'id_factura
+        '
+        Me.id_factura.DataPropertyName = "id_factura"
+        Me.id_factura.HeaderText = "id_factura"
+        Me.id_factura.Name = "id_factura"
+        Me.id_factura.Visible = False
+        Me.id_factura.Width = 186
+        '
+        'Num_factura
+        '
+        Me.Num_factura.DataPropertyName = "Num_factura"
+        Me.Num_factura.HeaderText = "Factura"
+        Me.Num_factura.Name = "Num_factura"
+        Me.Num_factura.Width = 149
+        '
+        'devoluciones
+        '
+        Me.devoluciones.DataPropertyName = "devoluciones"
+        Me.devoluciones.HeaderText = "devoluciones"
+        Me.devoluciones.Name = "devoluciones"
+        Me.devoluciones.Visible = False
+        Me.devoluciones.Width = 219
+        '
+        'anulado
+        '
+        Me.anulado.DataPropertyName = "anulado"
+        Me.anulado.HeaderText = "anulado"
+        Me.anulado.Name = "anulado"
+        Me.anulado.Visible = False
+        Me.anulado.Width = 152
+        '
+        'Nota
+        '
+        Me.Nota.HeaderText = "Nota"
+        Me.Nota.Image = Global.Empaquetar.My.Resources.Resources.no_note
+        Me.Nota.Name = "Nota"
+        Me.Nota.Width = 86
+        '
+        'Nota_pantalla
+        '
+        Me.Nota_pantalla.DataPropertyName = "nota_pantalla"
+        Me.Nota_pantalla.HeaderText = "nota_pantalla"
+        Me.Nota_pantalla.Name = "Nota_pantalla"
+        Me.Nota_pantalla.Visible = False
+        Me.Nota_pantalla.Width = 233
+        '
         'Frmprincipal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 29.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 38.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1284, 749)
         Me.Controls.Add(Me.dgproductos)
@@ -397,6 +397,7 @@ Partial Class Frmprincipal
     Friend WithEvents ToolStripStatusLabel2 As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents ToolStripStatusLabel3 As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents DataGridViewImageColumn1 As System.Windows.Forms.DataGridViewImageColumn
+    Friend WithEvents ImageList2 As System.Windows.Forms.ImageList
     Friend WithEvents Codarticulo As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Descripcion As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Cantidad As System.Windows.Forms.DataGridViewTextBoxColumn
@@ -410,6 +411,5 @@ Partial Class Frmprincipal
     Friend WithEvents anulado As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Nota As System.Windows.Forms.DataGridViewImageColumn
     Friend WithEvents Nota_pantalla As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents ImageList2 As System.Windows.Forms.ImageList
 
 End Class

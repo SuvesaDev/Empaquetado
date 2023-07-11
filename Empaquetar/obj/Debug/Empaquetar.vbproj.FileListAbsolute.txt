@@ -66,3 +66,16 @@ C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.frmteclado.r
 C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.Resources.resources
 C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.splash.resources
 C:\TIOBSoluciones\Codigo\Empaquetar\Empaquetar\obj\Debug\Empaquetar.vbproj.GenerateResource.Cache
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\bin\Debug\Empaquetar.exe.config
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.exe
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.xml
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.pdb
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\bin\Debug\Empaquetar.exe
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\bin\Debug\Empaquetar.pdb
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\bin\Debug\Empaquetar.xml
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.Frmprincipal.resources
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.frmEmpaquetar.resources
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.frmteclado.resources
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.Resources.resources
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.splash.resources
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.vbproj.GenerateResource.Cache

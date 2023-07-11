@@ -97,20 +97,24 @@
 
     Public Sub cargar()
         Timer1.Enabled = True
-
+        Dim marcaHuber As Integer = Me.GetHuber
         If cbPantallas.Text = "NINGUNA" Then
-            Dim marca As Integer = Me.GetQuimicos
-            If marca > 0 Then
-                cFunciones.Llenar_Tabla_Generico("select id_venta_detalle, Codarticulo, Descripcion, Cantidad, DATEDIFF(MI, fecha ,GETDATE()) as minutos, cast (0 as bit) as Selección, codmarca, Id_Factura, Num_Factura ,devoluciones,anulado,nota_pantalla from detalle_empaquetado Where codmarca <> " & marca & " order by minutos ", dts, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
+            Dim marcaQuimicos As Integer = Me.GetQuimicos
+            If marcaQuimicos > 0 Or marcaHuber > 0 Then
+                cFunciones.Llenar_Tabla_Generico("select id_venta_detalle, Codarticulo, Descripcion, Cantidad, DATEDIFF(MI, fecha ,GETDATE()) as minutos, cast (0 as bit) as Selección, codmarca, Id_Factura, Num_Factura ,devoluciones,anulado,nota_pantalla from detalle_empaquetado Where codmarca NOT IN( " & marcaQuimicos & ", " & marcaHuber & ") order by minutos", dts, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
             Else
-                cFunciones.Llenar_Tabla_Generico("select id_venta_detalle, Codarticulo, Descripcion, Cantidad, DATEDIFF(MI, fecha ,GETDATE()) as minutos, cast (0 as bit) as Selección, codmarca, Id_Factura, Num_Factura ,devoluciones,anulado,nota_pantalla from detalle_empaquetado order by minutos ", dts, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
+                cFunciones.Llenar_Tabla_Generico("select id_venta_detalle, Codarticulo, Descripcion, Cantidad, DATEDIFF(MI, fecha ,GETDATE()) as minutos, cast (0 as bit) as Selección, codmarca, Id_Factura, Num_Factura ,devoluciones,anulado,nota_pantalla from detalle_empaquetado order by minutos order by minutos", dts, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
             End If
         Else
             Dim marca As Integer = cbPantallas.SelectedValue
-            cFunciones.Llenar_Tabla_Generico("select id_venta_detalle, Codarticulo, Descripcion, Cantidad, DATEDIFF(MI, fecha ,GETDATE()) as minutos, cast (0 as bit) as Selección, codmarca, Id_Factura, Num_Factura, devoluciones,anulado,nota_pantalla  from detalle_empaquetado where codmarca = " & marca & " order by minutos desc ", dts, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
+            If marca = marcaHuber Then
+                cFunciones.Llenar_Tabla_Generico("select id_venta_detalle, Codarticulo, Descripcion, Cantidad, DATEDIFF(MI, fecha ,GETDATE()) as minutos, cast (0 as bit) as Selección, codmarca, Id_Factura, Num_Factura, devoluciones,anulado,nota_pantalla  from detalle_empaquetado where codmarca = " & marca & " order by Num_Factura ", dts, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
+            Else
+                cFunciones.Llenar_Tabla_Generico("select id_venta_detalle, Codarticulo, Descripcion, Cantidad, DATEDIFF(MI, fecha ,GETDATE()) as minutos, cast (0 as bit) as Selección, codmarca, Id_Factura, Num_Factura, devoluciones,anulado,nota_pantalla  from detalle_empaquetado where codmarca = " & marca & " order by minutos ", dts, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
+            End If
         End If
 
-        Me.dgproductos.DataSource = dts     
+        Me.dgproductos.DataSource = dts
         Me.Sonido()
 
         busca_devoluciones()
@@ -206,7 +210,17 @@
         If dt.Rows.Count > 0 Then
             Return dt.Rows(0).Item("CodMarca")
         Else
-            Return 0
+            Return -1
+        End If
+    End Function
+
+    Private Function GetHuber() As Integer
+        Dim dt As New DataTable
+        cFunciones.Llenar_Tabla_Generico("select * from Marcas where Marca like '%Huber%'", dt, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
+        If dt.Rows.Count > 0 Then
+            Return dt.Rows(0).Item("CodMarca")
+        Else
+            Return -1
         End If
     End Function
 
@@ -216,6 +230,8 @@
         cFunciones.Llenar_Tabla_Generico("select Identificacion from Seguridad.dbo.Emisor", dt, GetSetting("SeeSOFT", "SeePOs", "Conexion"))
         Select Case dt.Rows(0).Item("Identificacion")
             Case "3101105432" : Return "PreVentas_Detalle"
+            Case "3101696098" : Return "PreVentas_Detalle"
+            Case "3101340440" : Return "PreVentas_Detalle"
             Case Else : Return "Ventas_Detalle"
         End Select
     End Function
