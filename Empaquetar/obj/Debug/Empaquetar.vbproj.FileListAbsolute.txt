@@ -79,3 +79,4 @@ C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.frm
 C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.Resources.resources
 C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.splash.resources
 C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.vbproj.GenerateResource.Cache
+C:\Users\LENOVO\Documents\GitHub\Empaquetado\Empaquetar\obj\Debug\Empaquetar.vbprojResolveAssemblyReference.cache
